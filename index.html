@@ -1,0 +1,89 @@
+<div<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" >
+  <title>Login page</title>
+    <style>
+      #logo {
+  display: flex;
+  justify-content: center;
+  max-height: 200px;
+}
+.box {
+  border: 1px solid lightgrey;
+  height: 50vh;
+  width: 60vw;
+  margin: 10px 110px 100px 110px;
+  box-shadow: 2px 2px 3px grey;
+  box-shadow: -2px -3px -3px grey;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: lightblack;
+}
+input {
+  background-color: white;
+  border: 1px solid grey;
+  width: 55vw;
+  margin: 8px 15px 18px 15px;
+  height: 25px;
+}
+button {
+  background-color: #1877F9;
+  width: 55vw;
+  margin: 8px 15px 8px 15px;
+  height: 29px;
+  border: none;
+}
+a {
+  color: #1877F9;
+  font-size: 0.75rem;
+  text-decoration: none;
+  padding: 90px 45px;
+}
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(white, lightblue, lightyellow);
+}
+  
+ .link {
+   margin: 20px 0 0 0;
+}
+hr {
+  width: 50vw;
+}
+p {
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+.create {
+  width: 25vw;
+  background-color: deepskyblue;
+  color: white;
+  height: 1.6rem
+}
+.link:visited {
+  color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="logo">
+      <img src="https://i.postimg.cc/wjt4VFYk/logo-big.png">
+    </div>
+    <div class="box">
+      <h2>Login to your account</h2>
+      <input type="email" placeholder="e Mail Address" id="email">
+      <input type="text" id="password" placeholder="Password">
+      <div href="https://efacility.jamb.gov.ng/"><button type="submit">Login</button></div>
+      <div class="link"><a href="https://share.google/IHWk3GHnv3IVGRUHL">Forgot your Password? Click here to reset it</a></div>
+      <hr></hr>
+    <p>Don't have an account yet?<button class="create" type="submit">Create an account</button></p>
+    </div>
+  </body>
+</html>
